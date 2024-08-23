@@ -1,0 +1,119 @@
+body {
+	height: 96vh;
+	background-image: url(Background.png);
+	background-size: cover;
+}	
+
+img {
+	width: 90px;
+}
+.star {
+	position: relative;
+	margin-top: 50px;
+	width: 250px;
+	height: 120px;
+	left: 10px;
+
+}
+.balloon {
+    position: fixed;
+    height: 200px;
+	width: 150px;
+    top: 500px;
+    right: 50px;
+}
+.Handsballoon {
+    position: relative;
+    height: 200px;
+	width: 100px;
+    top: 500px;
+    left: 900px;
+	animation: floatUp 5s ease-out infinite;
+}
+.Handsballoon2 {
+    position: relative;
+    height: 200px;
+	width: 100px;
+    top: 500px;
+    right: 50px;
+	animation: floatUp 5s ease-out infinite;
+}
+@keyframes floatUp {
+    0% {
+        transform: translateY(100vh); /* Start from the bottom */
+    }
+    100% {
+        transform: translateY(-270%); /* Move to the top */
+    }
+}
+.cat {
+    position: fixed;
+    left: 30px;
+	bottom: 5px;
+	width: 100px;
+    height: 150px;
+}
+.confetti {
+	position: relative;
+	top: 50px;
+	left: 20px;
+	height: 150px;
+}
+.confetti2 {
+	position: relative;
+	top: 50px;
+	left: 450px;
+	height: 150px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.birthdayCard {
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 50px;
+	box-shadow: 5px 5px 50px rgb(46,44,44);
+}
+.birthdayCard{ 
+	position: relative;
+    width: 650px;
+    height: 510px;
+    background-color: rgba(255,255,255,0.7);
+    left: 0;
+    top: -50px;
+}
+.happy,
+.toyou {
+    position: relative;
+	color: deepskyblue;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 40px;
+	left: -30px;
+	top: -150px;
+}
+
+.inside-text {
+    position: relative;
+    left: 30px;
+    transform: scale(0.7);
+}
+
+.wishes {
+    position: relative;
+    top: -70px;
+    margin: 25px;
+	margin-left: 50px;
+	font-size: 24px;
+}
+p {
+	font-family: 'Brush Script MT';
+
+    color: #333;
+}
+
+.name {
+    margin-left: 400px;
+}
