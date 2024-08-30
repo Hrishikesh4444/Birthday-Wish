@@ -40,10 +40,10 @@ img {
 }
 @keyframes floatUp {
     0% {
-        transform: translateY(100vh); /* Start from the bottom */
+        top: 700px;
     }
     100% {
-        transform: translateY(-270%); /* Move to the top */
+        top: 1px;
     }
 }
 .cat {
